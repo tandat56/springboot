@@ -48,6 +48,7 @@ public class NewAPI {
 	public void deleteNew(@RequestBody long[] ids) {
 		newService.delete(ids);
 	}
+	
 	/*
 	 * @GetMapping(value = "/") public String home() { return "<h1>welcome</h1>"; }
 	 */
